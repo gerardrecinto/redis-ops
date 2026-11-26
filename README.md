@@ -8,9 +8,8 @@ distributed lock with fencing tokens (and a test that reproduces the race
 fencing tokens exist to prevent), and eviction verified under real memory
 pressure.
 
-**Honesty note**: my Redis experience going into this came from deploying
-LiteLLM AI infrastructure, not from operating Redis clustering/failover
-directly. Everything below — including two real Docker-networking
+I came to this from deploying LiteLLM AI infrastructure.
+Everything below — including two real Docker-networking
 gotchas hit while building it — was verified hands-on in this lab. See
 `docs/REDIS_TIERS.md` for exactly what this project does and does not
 claim about AWS ElastiCache.
