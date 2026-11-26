@@ -217,14 +217,6 @@ python scripts/failover_demo.py   # on the host</pre>
   </div>
 </div></section>
 
-<section><div class="wrap">
-  <div class="limits"><strong>What this does not do</strong><ul>
-    <li>The lock and limiter panels above are models, not Redis. Only the failover transcript and the tests list come from the repo itself.</li>
-    <li>The author's README states Redis experience came from running AI infrastructure, not clustering. This lab is where the hands-on failover work happened.</li>
-    <li>Nothing here is deployed on AWS ElastiCache. <code>infra/elasticache.tf</code> is a reference, never applied.</li>
-    <li>A single-instance lock is not a safe lock under every failure. That is the reason for the fencing token.</li>
-  </ul></div>
-</div></section>
 
 
 <footer><div class="wrap">

@@ -1,6 +1,6 @@
 # redis-ops-lab
 
-A Redis operations portfolio project: a real primary/2-replica/3-Sentinel
+A Redis operations project: a real primary/2-replica/3-Sentinel
 deployment with authentication, persistence, an actually-executed
 automated failover, cache-aside invalidation with TTL jitter, hot-key
 mitigation, a Lua-script-atomic sliding-window rate limiter, a
